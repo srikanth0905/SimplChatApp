@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1085512808265",
+    "firebase_url": "https://simplchatapp.firebaseio.com",
+    "project_id": "simplchatapp",
+    "storage_bucket": "simplchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085512808265:android:7dc13cfbae8eee3e",
+        "android_client_info": {
+          "package_name": "com.greymat9er.SimplChatApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085512808265-fba08nfh9ssuvov2tolpr7ipso4g8nn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.greymat9er.SimplChatApp",
+            "certificate_hash": "94d14bd712cf759860458dce37c28b0eee4b78b3"
+          }
+        },
+        {
+          "client_id": "1085512808265-2eg6404br5rtc1cn09jh3mkdk6ni8q61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEbVufn7F8noiBDSAQZMdi_rhcZAiKOJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085512808265-2eg6404br5rtc1cn09jh3mkdk6ni8q61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
