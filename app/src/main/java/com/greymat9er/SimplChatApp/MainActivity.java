@@ -4,12 +4,17 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.v4.*;
+import androidx.annotation.NonNull;
+//import android.support.annotation.NonNull;                    does not work anymore
+import androidx.annotation.Nullable;
+//import android.support.annotation.Nullable;                   does not work anymore
+//import android.support.design.widget.FloatingActionButton;    not needed as of now
+//import android.support.design.widget.Snackbar;                not needed as of now
+import androidx.appcompat.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;              does not work anymore
+import androidx.appcompat.widget.Toolbar;
+//import android.support.v7.widget.Toolbar;                     does not work anymore
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
@@ -35,6 +40,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.annotations.NotNull;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
